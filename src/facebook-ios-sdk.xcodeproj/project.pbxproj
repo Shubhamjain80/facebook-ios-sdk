@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515D74AC18B74C0D000835C6 /* fb_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 515D74AA18B74C0D000835C6 /* fb_btn.png */; };
+		515D74AD18B74C0D000835C6 /* fb_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 515D74AB18B74C0D000835C6 /* fb_btn@2x.png */; };
 		5F0572B916156625008B54E6 /* FBAppEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0572B716156625008B54E6 /* FBAppEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FC7ABAB178C7D2500829DD1 /* FBInsights.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC7ABA1178C7A4900829DD1 /* FBInsights.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EBC39BD171CF1E400574F4E /* FBSettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC39BC171CF1E400574F4E /* FBSettingsTests.m */; };
@@ -472,6 +474,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		515D74AA18B74C0D000835C6 /* fb_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_btn.png; sourceTree = "<group>"; };
+		515D74AB18B74C0D000835C6 /* fb_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb_btn@2x.png"; sourceTree = "<group>"; };
 		5F0572B716156625008B54E6 /* FBAppEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppEvents.h; sourceTree = "<group>"; };
 		5FC7ABA1178C7A4900829DD1 /* FBInsights.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBInsights.h; sourceTree = "<group>"; };
 		7EBC39BB171CF1E400574F4E /* FBSettingsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBSettingsTests.h; path = tests/FBSettingsTests.h; sourceTree = "<group>"; };
@@ -1159,6 +1163,8 @@
 		99F1D7E717726FF200BEBF6F /* FBLoginView */ = {
 			isa = PBXGroup;
 			children = (
+				515D74AA18B74C0D000835C6 /* fb_btn.png */,
+				515D74AB18B74C0D000835C6 /* fb_btn@2x.png */,
 				99CAF90117A326B7006B68A1 /* FBLoginViewButtonPressed@2x.png */,
 				99CAF90217A326B7006B68A1 /* FBLoginViewButtonPressed.png */,
 				99BB51881784C30B00AC8144 /* FBLoginViewButton.png */,
@@ -1565,6 +1571,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515D74AC18B74C0D000835C6 /* fb_btn.png in Resources */,
+				515D74AD18B74C0D000835C6 /* fb_btn@2x.png in Resources */,
 				840F658C159B3A47005D41AA /* FBLoginView.h in Resources */,
 				8425CFA81639914800472F98 /* NSError+FBError.h in Resources */,
 				9D366B2B178F230D007B4CEC /* FacebookSDKResources.bundle.README in Resources */,
